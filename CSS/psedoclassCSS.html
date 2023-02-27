@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pseudo class</title>
+    <style>
+      .hello:hover{
+        background: black;
+        color:white;  
+        border: 2px solid red;
+     }
+     input:focus{
+        font-size: 20px;
+        background-color: black;
+        color: brown;
+     }
+     a:hover{
+        color: aqua;
+     }
+     a:active{
+        color:pink;
+     }
+     a:visited{
+        color:black;
+     }
+     ::selection{
+        background-color: blue;
+        color: black;
+        }
+     }
+    </style>
+</head>
+
+<body>
+    <!-- pseudo class -->
+    <p class="hello">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+         Modi doloribus numquam molestiae cupiditate! Optio, ad 
+         voluptates dolor totam impedit eaque deleniti quidem,
+          dignissimos beatae obcaecati officia maxime aut
+           voluptatibus amet.</p>
+           <input type="text">
+           <hr>
+           <a href="https://www.google.com/">google</a>
+</body>
+</html>

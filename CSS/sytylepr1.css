@@ -1,0 +1,27 @@
+*{
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+overflow: hidden;
+
+}
+body{
+    height: 100px;
+    width: 100px;
+    background-color:  #edf1fd;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+li{
+    list-style:none;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+}
+button{
+    background-color: #80808032;
+    padding: 4px 10px;
+    
+}
