@@ -1,0 +1,25 @@
+body{
+    background-color:blueviolet;
+}
+div{
+    text-align: center;
+    font-size: x-large;
+}
+div::after{
+    content: 'welcome to the demo';
+}
+@media (min-width:600px){
+    body{
+        background-color: aquamarine;
+    }
+    div::after{
+        content: 'woah we are responsive';
+    }
+}
+@media (min-width:900px){
+    body{
+        background-color:yellowgreen;
+    }
+    div::after{
+        content: 'woah we are responsive';
+    }
